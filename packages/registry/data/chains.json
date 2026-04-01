@@ -118,5 +118,53 @@
     "faucets": ["https://faucet.solana.com"],
     "testnet": true,
     "learn": "Solana's development network for testing. Free SOL from the faucet. Resets periodically — don't store anything important here. Use for development and testing before deploying to mainnet."
+  },
+  {
+    "chainId": 324,
+    "name": "zkSync Era",
+    "shortName": "zksync",
+    "ecosystem": "evm",
+    "nativeCurrency": { "name": "Ether", "symbol": "ETH", "decimals": 18 },
+    "rpcUrls": ["https://mainnet.era.zksync.io"],
+    "blockExplorers": ["https://explorer.zksync.io"],
+    "faucets": [],
+    "testnet": false,
+    "learn": "Leading ZK-rollup scaling Ethereum. Uses ZK-proofs to provide low-cost transactions while maintaining Ethereum's security. Features native account abstraction."
+  },
+  {
+    "chainId": 78272106,
+    "name": "Sui",
+    "shortName": "sui",
+    "ecosystem": "sui",
+    "nativeCurrency": { "name": "SUI", "symbol": "SUI", "decimals": 9 },
+    "rpcUrls": ["https://fullnode.mainnet.sui.io"],
+    "blockExplorers": ["https://suiscan.xyz", "https://suiexplorer.com"],
+    "faucets": [],
+    "testnet": false,
+    "learn": "Next-generation L1 with an object-centric data model. Built with Move language. High throughput via parallel execution. Native assets are objects, not just balances in accounts."
+  },
+  {
+    "chainId": 1,
+    "name": "Aptos",
+    "shortName": "apt",
+    "ecosystem": "aptos",
+    "nativeCurrency": { "name": "Aptos Coin", "symbol": "APT", "decimals": 8 },
+    "rpcUrls": ["https://fullnode.mainnet.aptoslabs.com"],
+    "blockExplorers": ["https://aptoscan.com", "https://explorer.aptoslabs.com"],
+    "faucets": [],
+    "testnet": false,
+    "learn": "Move-based L1 focused on scalability and safety. Features parallel transaction execution (Block-STM) and a modular architecture. Successor to the Diem project."
+  },
+  {
+    "chainId": 11155111,
+    "name": "Sepolia",
+    "shortName": "sep",
+    "ecosystem": "evm",
+    "nativeCurrency": { "name": "Sepolia Ether", "symbol": "ETH", "decimals": 18 },
+    "rpcUrls": ["https://rpc.sepolia.org"],
+    "blockExplorers": ["https://sepolia.etherscan.io"],
+    "faucets": ["https://sepoliafaucet.com"],
+    "testnet": true,
+    "learn": "The primary Ethereum testnet for dApp development. Replaced Goerli. Reliable, high-uptime network for testing transactions and smart contracts before mainnet deployment."
   }
 ]
